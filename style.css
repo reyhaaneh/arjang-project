@@ -1,1 +1,88 @@
-1
+.container-fluid {
+    width: 1512px;
+    height: 90px;
+    background-color: white;
+    border-bottom:1px solid #DDDBE1;  
+}
+.btn-warning {
+    color: white;
+    border-radius: 24px;
+}
+.nav-link {
+    color: black;
+}
+.container1 {
+    width: 1008px;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 8px;
+    left: 177px;
+}
+.rectangle {
+    width: 182.83px;
+    height: 120px;
+    color:white;
+    background-color: black;
+    border-radius: 12px;
+    text-align:center;
+    line-height: auto;
+    position: relative;
+    top: 30px;
+    left: 520px;
+    box-shadow: 0 5px 5px grey;
+}
+.rectangle1 {
+    width: 222.91px;
+    height: 100px;
+    color:white;
+    background-color: black;
+    border-radius: 12px;
+    text-align:center;
+    line-height: auto;
+    position: relative;
+    top:300px;
+    left: 200px;
+    box-shadow: 0 5px 5px grey;
+}
+.group-4{
+    width: 1008px;
+    height: 110px;
+    display: flex;
+    justify-content:center; 
+    position: relative;
+    bottom: 70px;  
+}
+.group-5{
+    width: 1008px;
+    height: 110px;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    bottom: 70px;
+}
+.text {
+    text-shadow: 0 5px 5px grey;
+}
+.polygon {
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top:25px;
+    left:600px;
+}
+.polygon1 {
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top: 185px;
+    left:350px;
+}
+
+
+
+
+
+
