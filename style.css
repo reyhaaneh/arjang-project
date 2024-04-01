@@ -1,12 +1,21 @@
+.body {
+    direction: rtl;
+}
+@font-face {
+    font-family: 'kalameh';
+    src: url(font/KalamehWeb_Bold.ttf);
+}
 .container-fluid {
     width: 1512px;
     height: 90px;
     background-color: white;
-    border-bottom:1px solid #DDDBE1;  
+    border-bottom:1px solid #DDDBE1; 
+    font-family: kalameh; 
 }
 .btn-warning {
     color: white;
     border-radius: 24px;
+    font-family: kalameh;
 }
 .nav-link {
     color: black;
@@ -20,10 +29,11 @@
     position: relative;
     bottom: 8px;
     left: 177px;
+    font-family: kalameh;
 }
 .rectangle {
     width: 182.83px;
-    height: 120px;
+    height: 100px;
     color:white;
     background-color: black;
     border-radius: 12px;
@@ -33,6 +43,8 @@
     top: 30px;
     left: 520px;
     box-shadow: 0 5px 5px grey;
+    font-family: kalameh;
+    text-align:center;
 }
 .rectangle1 {
     width: 222.91px;
@@ -46,6 +58,8 @@
     top:300px;
     left: 200px;
     box-shadow: 0 5px 5px grey;
+    font-family: kalameh;
+    text-align: center;
 }
 .group-4{
     width: 1008px;
@@ -53,7 +67,8 @@
     display: flex;
     justify-content:center; 
     position: relative;
-    bottom: 70px;  
+    bottom: 70px;
+    font-family: kalameh;  
 }
 .group-5{
     width: 1008px;
@@ -62,9 +77,11 @@
     justify-content:center;
     position: relative;
     bottom: 70px;
+    font-family: kalameh;
 }
 .text {
     text-shadow: 0 5px 5px grey;
+    font-family: kalameh; 
 }
 .polygon {
     width: 40px;
@@ -79,6 +96,134 @@
     position: relative;
     top: 185px;
     left:350px;
+}
+.container2 {
+    width: 1199px;
+    height: 648px;
+    background-image: url('images/Rectangle\ 4.png');
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+.container3 {
+    width: 1199px;
+    height: 648px;
+    background: rgba(250, 248, 248, 0.3);
+}
+.container4 {
+    width: 104px;
+    height: 104px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 280px;
+    left: 550px;
+    font-family: kalameh;
+}
+.container5 {
+    width: 991px;
+    height: 345px;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    font-family: kalameh;
+}
+.title {
+    color: #FCB816;
+    text-align:right;
+    font-family: kalameh;
+    position: relative;
+    right: 200px;
+}
+.group-6 {
+    width: 400px;
+    height: 240px;
+    font-weight: bold;
+    font-size: large;
+    text-align:right;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 400px;
+    font-family: kalameh;
+    line-height: 30px;
+    align-items: center;
+}
+.group-7 {
+    width: 400px;
+    height: 238px;
+    text-align:right;
+    font-size: 12px;
+    display: inline-block; 
+    flex-direction: row-reverse;
+    position: relative;
+    right: 400px;
+    font-family: kalameh;
+    align-items: center;
+}
+.btn-light {
+    position: relative;
+    top: 50px;
+    right: 70px;
+    font-family: kalameh;
+}
+.container6 {
+    width: 995px;
+    height: 1226px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+.container7 {
+    width: 995px;
+    height: 344px;
+    background-color: orchid;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.container8 {
+    width: 1035px;
+    height: 688px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.container8 p {
+    color: #FCB816;
+    text-align: center;
+    font-family: kalameh;
+}
+.container8 h2 {
+    text-align: center;
+    font-family: kalameh;
+}
+.group-9 {
+    width: 1035px;
+    height: 415px;
+    margin-top: 50px;
+    text-align: right;
+    font-family: kalameh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.card-body p {
+    text-align: right;
+    color: black;
+}
+.card-body a {
+    text-decoration: none;
+    color: black;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+.text1 {
+    color: #FCB816!important;
+}
+.btn1 {
+    position: relative;
+    left: 450px;
 }
 
 
