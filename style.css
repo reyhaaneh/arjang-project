@@ -1,233 +1,289 @@
 .body {
-    direction: rtl;
+  direction: rtl;
+  margin: 0;
 }
 @font-face {
-    font-family: 'kalameh';
-    src: url(font/KalamehWeb_Bold.ttf);
+  font-family: "kalameh";
+  src: url(font/KalamehWeb_Bold.ttf);
 }
 .container-fluid {
-    width: 1512px;
-    height: 90px;
-    background-color: white;
-    border-bottom:1px solid #DDDBE1; 
-    font-family: kalameh; 
+  width: 1512px;
+  height: 90px;
+  background-color: white;
+  border-bottom: 1px solid #dddbe1;
+  font-family: kalameh;
 }
 .btn-warning {
-    color: white;
-    border-radius: 24px;
-    font-family: kalameh;
+  color: white;
+  border-radius: 24px;
+  font-family: kalameh;
 }
 .nav-link {
-    color: black;
+  color: black;
 }
 .container1 {
-    width: 1008px;
-    height: 600px;
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    bottom: 8px;
-    left: 177px;
-    font-family: kalameh;
+  width: 1008px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: kalameh;
+  margin: 0 auto;
 }
 .rectangle {
-    width: 182.83px;
-    height: 100px;
-    color:white;
-    background-color: black;
-    border-radius: 12px;
-    text-align:center;
-    line-height: auto;
-    position: relative;
-    top: 30px;
-    left: 520px;
-    box-shadow: 0 5px 5px grey;
-    font-family: kalameh;
-    text-align:center;
+  width: 182.83px;
+  height: 100px;
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  text-align: center;
+  line-height: auto;
+  position: relative;
+  top: 30px;
+  left: 520px;
+  box-shadow: 0 5px 5px grey;
+  font-family: kalameh;
+  text-align: center;
 }
 .rectangle1 {
-    width: 222.91px;
-    height: 100px;
-    color:white;
-    background-color: black;
-    border-radius: 12px;
-    text-align:center;
-    line-height: auto;
-    position: relative;
-    top:300px;
-    left: 200px;
-    box-shadow: 0 5px 5px grey;
-    font-family: kalameh;
-    text-align: center;
+  width: 222.91px;
+  height: 100px;
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  text-align: center;
+  line-height: auto;
+  position: relative;
+  top: 300px;
+  left: 200px;
+  box-shadow: 0 5px 5px grey;
+  font-family: kalameh;
+  text-align: center;
 }
-.group-4{
-    width: 1008px;
-    height: 110px;
-    display: flex;
-    justify-content:center; 
-    position: relative;
-    bottom: 70px;
-    font-family: kalameh;  
+.group-4 {
+  width: 1008px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 70px;
+  font-family: kalameh;
 }
-.group-5{
-    width: 1008px;
-    height: 110px;
-    display: flex;
-    justify-content:center;
-    position: relative;
-    bottom: 70px;
-    font-family: kalameh;
+.group-5 {
+  width: 1008px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 70px;
+  font-family: kalameh;
 }
 .text {
-    text-shadow: 0 5px 5px grey;
-    font-family: kalameh; 
+  text-shadow: 0 5px 5px grey;
+  font-family: kalameh;
 }
 .polygon {
-    width: 40px;
-    height: 20px;
-    position: relative;
-    top:25px;
-    left:600px;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  top: 25px;
+  left: 600px;
 }
 .polygon1 {
-    width: 40px;
-    height: 20px;
-    position: relative;
-    top: 185px;
-    left:350px;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  top: 185px;
+  left: 350px;
 }
 .container2 {
-    width: 1199px;
-    height: 648px;
-    background-image: url('images/Rectangle\ 4.png');
-    position: relative;
-    top: 100px;
-    left: 80px;
+  width: 1199px;
+  height: 648px;
+  background-image: url(images/Rectangle\ 4.png);
+  margin: 0 auto;
+  margin-top: 100px;
 }
 .container3 {
-    width: 1199px;
-    height: 648px;
-    background: rgba(250, 248, 248, 0.3);
+  width: 1199px;
+  height: 648px;
+  background: rgba(250, 248, 248, 0.3);
+  margin: 0 auto;
+  margin-top: 100px;
 }
 .container4 {
-    width: 104px;
-    height: 104px;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 280px;
-    left: 550px;
-    font-family: kalameh;
+  width: 104px;
+  height: 104px;
+  margin: 0 auto;
+  position: relative;
+  top: 280px;
 }
 .container5 {
-    width: 991px;
-    height: 345px;
-    flex-direction: row-reverse;
-    position: relative;
-    top: 200px;
-    left: 200px;
-    font-family: kalameh;
+  width: 991px;
+  height: 345px;
+  text-align: right;
+  font-family: kalameh;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 .title {
-    color: #FCB816;
-    text-align:right;
-    font-family: kalameh;
-    position: relative;
-    right: 200px;
-}
-.group-6 {
-    width: 400px;
-    height: 240px;
-    font-weight: bold;
-    font-size: large;
-    text-align:right;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    left: 400px;
-    font-family: kalameh;
-    line-height: 30px;
-    align-items: center;
-}
-.group-7 {
-    width: 400px;
-    height: 238px;
-    text-align:right;
-    font-size: 12px;
-    display: inline-block; 
-    flex-direction: row-reverse;
-    position: relative;
-    right: 400px;
-    font-family: kalameh;
-    align-items: center;
+  color: #fcb816;
+  font-family: kalameh;
 }
 .btn-light {
-    position: relative;
-    top: 50px;
-    right: 70px;
-    font-family: kalameh;
+  font-family: kalameh;
 }
 .container6 {
-    width: 995px;
-    height: 1226px;
-    background-color: aqua;
-    margin: 0 auto;
-    margin-top: 300px;
+  width: 995px;
+  height: 1226px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: kalameh;
+}
+.box {
+  width: 995px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.card1 {
+  margin-top: 60px;
+}
+.card h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.box img {
+  width: 526px;
+  height: 330px;
+}
+.box1 {
+  width: 995px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+}
+.box1 img {
+  width: 526px;
+  height: 330px;
+}
+.box2 {
+  width: 995px;
+  height: 63px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 99px;
+  align-items: baseline;
+
+}
+.img1 {
+  width: 80px;
+  height: 29px;
+}
+.img2 {
+  width: 116px;
+  height: 31px;
+}
+.img3 {
+  width: 47px;
+  height: 47px;
+}
+.img4 {
+  width: 130px;
+  height: 63px;
+}
+.img5 {
+  width: 105px;
+  height: 26px;
+}
+.img6 {
+  width: 107px;
+  height: 25px;
 }
 .container7 {
-    width: 995px;
-    height: 344px;
-    background-color: orchid;
-    margin: 0 auto;
-    margin-top: 100px;
+  width: 995px;
+  height: 344px;
+  margin: 0 auto;
+  margin-top: 200px;
+  font-family: kalameh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.box3 {
+  width: 370px;
+  height: 324px;
+  text-align: right;
+  margin-top: 10px;
+}
+.text2 {
+  color: #fcb816;
+}
+.box4 {
+  width: 44px;
+  height: 44px;
+  background-color: #fcb816;
+  border-radius: 50px;
+  line-height: 44px;
+  position: relative;
+  top: 25px;
+  left: 270px;
+}
+.box5 {
+  width: 44px;
+  height: 44px;
+  background-color: #fcb816;
+  border-radius: 50px;
+  line-height: 44px;
+  position: relative;
+  bottom: 20px;
+  left: 325px;
 }
 .container8 {
-    width: 1035px;
-    height: 688px;
-    margin: 0 auto;
-    margin-top: 100px;
+  width: 1035px;
+  height: 688px;
+  margin: 0 auto;
+  margin-top: 200px;
 }
 .container8 p {
-    color: #FCB816;
-    text-align: center;
-    font-family: kalameh;
+  color: #fcb816;
+  text-align: center;
+  font-family: kalameh;
 }
 .container8 h2 {
-    text-align: center;
-    font-family: kalameh;
+  text-align: center;
+  font-family: kalameh;
 }
 .group-9 {
-    width: 1035px;
-    height: 415px;
-    margin-top: 50px;
-    text-align: right;
-    font-family: kalameh;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+  width: 1035px;
+  height: 415px;
+  text-align: right;
+  font-family: kalameh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 .card-body p {
-    text-align: right;
-    color: black;
+  text-align: right;
+  color: black;
 }
 .card-body a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .card {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .text1 {
-    color: #FCB816!important;
+  color: #fcb816 !important;
 }
 .btn1 {
-    position: relative;
-    left: 450px;
+  position: relative;
+  top: 120px;
+  right: 470px;
 }
-
-
-
-
-
-
